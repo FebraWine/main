@@ -1,0 +1,42 @@
+.content {
+  background-color:#F8F8F8;
+  padding-left:16px ;
+}
+
+.content_h2 {
+   width:288px; 
+   margin-left: 0;
+   font-size: 28px;
+   line-height: 40px;
+}
+
+.content_h2::before {
+    content: '';
+    height: 40px;
+    background-color:#41F6D7 ;
+    padding:2px;
+    margin-right:16px;
+    margin-left: -16px;
+ }
+
+ /*over*/
+
+ .navigation {
+   display: flex;
+   overflow: auto;
+   height: 40px;
+   min-width: 480px;
+   align-items: center;
+   border: 2px solid red;
+
+   
+
+ }
+
+.navigation_el1,
+.navigation_el2
+ {
+    border: 2px solid red;
+    padding: 10px;
+}
+

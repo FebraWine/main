@@ -7,10 +7,24 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./scss/style_header.css">
+    <link rel="stylesheet" href="./scss/style_main.css">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <img src="./img/webpack.svg" alt="Webpack Logo" width="200px" />
-    <h3>Welcome to Webpack 4 starter </h3>
+    <header class="head">
+    <img class="head_imgGroup head__imgGroup-divider" src="./img/Group.png" alt="">
+    <img class="head_burger" src="./img/burger.png" alt="">
+    <div class="head_divider"></div>
+    <img class="head_repair" src="./img/repair.png" alt="">
+    <img class="head_checkstatus" src="./img/checkstatus.png" alt="">
+     </header>
+     <main class='content'>
+      <h1 class="content_h2">Услуги и сервисы</h1>
+        <nav class="navigation">
+        <div class="navigation_el1"><a href="#">Ремонтируемые устройства</a></div>
+        <div class="navigation_el2">Дополнительные услуги</div>
+      </nav>
+     </main>
   </body>
 </html>
