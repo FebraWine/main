@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes/TTLakes-Regular.eot');
+  src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+      url('../fonts/TTLakes/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TTLakes/TTLakes-Regular.woff') format('woff'),
+      url('../fonts/TTLakes/TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'TT Lakes';
+}
+
 .content {
   background-color:#F8F8F8;
   padding-left:16px ;
@@ -25,18 +40,57 @@
    display: flex;
    overflow: auto;
    height: 40px;
-   min-width: 480px;
    align-items: center;
-   border: 2px solid red;
-
-   
-
+ 
  }
 
 .navigation_el1,
 .navigation_el2
  {
-    border: 2px solid red;
+    min-width: 220px;
     padding: 10px;
+    color: #7E7E82;
+    border: 2px solid #F8F8F8;
+    background-color:#F8F8F8 ;
 }
+
+.navigation_el1{
+  border:2px solid #B8FFEC;
+  border-radius: 6px;
+ background-color: white;
+}
+
+.count {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.text_p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 0;
+  
+}
+
+.text_span {
+  font-size: 16px;
+  margin-left: 14px;
+  font-weight: bold;
+}
+
+.icon {
+  padding: 5px;
+}
+
+.kartinka {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  height: auto;
+  margin-left: -16px;
+
+}
+
 
