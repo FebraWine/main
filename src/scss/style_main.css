@@ -13,6 +13,19 @@ body {
   font-family: 'TT Lakes';
 }
 
+
+
+@media (max-width:768px) {
+  .text_p2 {
+    display:none
+  }
+
+  .kartinka {
+    margin-left: -16px;
+    margin-right: 0px;
+  }
+}
+
 .content {
   background-color:#F8F8F8;
   padding-left:16px ;
@@ -40,38 +53,55 @@ body {
    display: flex;
    overflow: auto;
    height: 40px;
-   align-items: center;
- 
  }
 
 .navigation_el1,
-.navigation_el2
- {
-    min-width: 220px;
-    padding: 10px;
+.navigation_el2,
+.navigation_el3,
+.navigation_el4
+ {  
+    white-space: nowrap;
+    line-height: 24px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: #7E7E82;
     border: 2px solid #F8F8F8;
-    background-color:#F8F8F8 ;
+    background-color:#F8F8F8;
+
 }
+
+
 
 .navigation_el1{
   border:2px solid #B8FFEC;
   border-radius: 6px;
- background-color: white;
+  background-color: white;
 }
 
-.count {
+.maincintent {
   margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
+
+
+.text_p2
 .text_p {
+  padding: 0;
   font-size: 14px;
   line-height: 18px;
-  margin-bottom: 0;
-  
+
+}
+.text {
+ max-width: 312px;
+ margin: 0;
+ padding: 0;
+ margin-right:0;
+
 }
 
 .text_span {
@@ -87,10 +117,22 @@ body {
 .kartinka {
   margin: 0;
   padding: 0;
-  width: 320px;
+  min-width: 320px;
   height: auto;
-  margin-left: -16px;
 
+}
+
+@media (min-width:768px) {
+  .kartinka {
+    margin-left: auto;
+    margin-right:16px;
+  }
+}
+
+@media (max-width:768px) {
+  .kartinka {
+    margin-left: -16px;
+  }
 }
 
 
