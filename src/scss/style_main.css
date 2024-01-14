@@ -11,6 +11,9 @@
 
 body {
   font-family: 'TT Lakes';
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -29,6 +32,7 @@ body {
 .content {
   background-color:#F8F8F8;
   padding-left:16px ;
+  max-width: 1120px;
 }
 
 .content_h2 {
@@ -49,16 +53,34 @@ body {
 
  /*over*/
 
+@media (max-width:1119px) {
+  .navigation {
+    overflow: auto;
+    height: 40px;
+  }
+
+  .text_count {
+    display: none
+  }
+}
+
+@media (min-width:1120px) {
+  .navigation {
+    flex-wrap: wrap;;
+  }
+
+}
+
  .navigation {
    display: flex;
-   overflow: auto;
-   height: 40px;
+   max-width: 1063px;
  }
 
 .navigation_el1,
 .navigation_el2,
 .navigation_el3,
-.navigation_el4
+.navigation_el4,
+.navigation_el6
  {  
     white-space: nowrap;
     line-height: 24px;
@@ -84,7 +106,7 @@ body {
   padding: 0;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 
@@ -97,7 +119,7 @@ body {
 
 }
 .text {
- max-width: 312px;
+ min-width: 312px;
  margin: 0;
  padding: 0;
  margin-right:0;
@@ -117,16 +139,7 @@ body {
 .kartinka {
   margin: 0;
   padding: 0;
-  min-width: 320px;
-  height: auto;
-
-}
-
-@media (min-width:768px) {
-  .kartinka {
-    margin-left: auto;
-    margin-right:16px;
-  }
+  width: 320px;
 }
 
 @media (max-width:768px) {
@@ -135,4 +148,115 @@ body {
   }
 }
 
+
+.text {
+  margin-right: 30px;
+  max-width: 490px;
+}
+
+.maincintent {
+  margin-top:0px;
+  padding-top: 10px;
+}
+
+header {
+  margin-bottom:0;
+}
+
+.navigation {
+  margin-bottom:0px;
+}
+
+main {
+  background-color: #7E7E82;
+}
+
+.bcd {
+  display: flex;
+  align-items: center;
+}
+
+.asd {
+  margin-left: auto;
+  min-width: 320px;
+  text-align: center;
+  height: auto;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.head_checkstatus1 {
+  margin-right: 24px;;
+}
+
+@media (max-width:1119px) {
+  .asd {
+    display: none;
+  }
+}
+
+@media (min-width:1120px) {
+  .head {
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+  .maincintent {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (min-width:1120px) {
+  .kartinka2 {
+    width: 532px;
+    height: auto;
+  }
+}
+
+@media (max-width:1119px) {
+  .kartinka2{
+    width: 320px;
+    height: auto;
+  }
+}
+
+@media (max-width:768px) {
+  .text {
+    max-width:312px;
+  }
+
+}
+
+.kartinka2 {
+  margin-left: auto;
+  padding: 0;
+}
+
+.kartinka {
+  margin-right: -1006px;
+}
+
+.content {
+  margin-right: 0;
+}
+
+@media (min-width:1119px) {
+  .text {
+    margin-left: 24px;
+  }
+
+  .navigation {
+    margin-left: 24px;
+  }
+
+
+  .content_h2::before {
+    margin-right: 40px;
+  }
+  
+}
 
