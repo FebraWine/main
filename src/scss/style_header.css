@@ -20,26 +20,25 @@ body {
   .head_divider_one {
     display: none;
   }
-}
-
-@media (max-width: 776px) { 
+  
   .leftTwo {
     padding-left: 12px;
   }
-}
-
-@media (max-width: 776px) {
+  
   .head_divider {
     margin-left: auto;
 
   }
-}
-
-@media (max-width: 776px) {
   .head_burger {
     margin-right: 15px;
   }
+
 }
+
+
+
+
+
 
 
 .head_repair {
