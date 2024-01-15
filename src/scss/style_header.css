@@ -13,7 +13,7 @@ body {
 }
 
 
-@media (max-width: 776px) {
+@media (max-width: 767px) {
   .headerRight_call,
   .headerRight_chat,
   .headerRight_profile,

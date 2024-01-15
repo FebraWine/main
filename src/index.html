@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./scss/style_main.css">
     <link rel="stylesheet" href="./scss/style_navigation.css">
     <link rel="stylesheet" href="./scss/style_content.css">
+    <link rel="stylesheet" href="./scss/style_headerPC.css">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
@@ -48,8 +49,9 @@
 
     </div>
         <nav class="navigation">
-        <button  type="button" class="navigation_el1">Ремонтируемые устройства</button>
-        <button type="button" class="navigation_el2" >Дополнительные устройства</button>
+        <button  type="button" class="navigation_el1">Ремонтируемые бренды</button>
+        <button type="button" class="navigation_el2" >Ремонтируемые устройства</button>
+        <button  type="button" class="navigation_el7">Дополнительные услуги</button>
         <button  type="button" class="navigation_el3">Цены на услуги</button>
         <button type="button" class="navigation_el4" >Адреса сервесных центров</button>
         <button  type="button" class="navigation_el3">Специальные цены</button>
@@ -58,7 +60,8 @@
     </div>
 
      </header>
-     <main class='content'>
+     <main>
+      <section class='content'>
       <div class="maincintent">
       <div class="text">
        <p class="text_p">Мы являемся авторизованным сервисным центром по ремонту 
@@ -69,9 +72,9 @@
        <img src="./img/icon.png" alt="">
        <span class="text_icon">Читать далее</span>
       </div>
-       
-       <div class="kartinka"><img class="kartinka2" src="./img/_MG_3223.png" alt=""></div>
+       <div class="contentImg"><img class="kartinka2" src="./img/_MG_3223.png" alt=""></div>
   </div>
+</section>
      </main>
   </body>
 </html>
