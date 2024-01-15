@@ -35,14 +35,14 @@ body {
   max-width: 1120px;
 }
 
-.content_h2 {
+.title_h1 {
    width:288px; 
    margin-left: 0;
    font-size: 28px;
    line-height: 40px;
 }
 
-.content_h2::before {
+.title_h1::before {
     content: '';
     height: 40px;
     background-color:#41F6D7 ;
@@ -171,12 +171,12 @@ main {
   background-color: #7E7E82;
 }
 
-.bcd {
+.title {
   display: flex;
   align-items: center;
 }
 
-.asd {
+.headerPCRight {
   margin-left: auto;
   min-width: 320px;
   text-align: center;
@@ -187,12 +187,12 @@ img {
   vertical-align: middle;
 }
 
-.head_checkstatus1 {
+.headerPCRight_checkstatus {
   margin-right: 24px;;
 }
 
 @media (max-width:1119px) {
-  .asd {
+  .headerPCRight {
     display: none;
   }
 }
@@ -254,7 +254,7 @@ img {
   }
 
 
-  .content_h2::before {
+  .title_h1::before {
     margin-right: 40px;
   }
   
