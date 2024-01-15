@@ -1,0 +1,47 @@
+@media (max-width:1119px) {
+    .navigation {
+      overflow: auto;
+      height: 40px;
+    }
+}
+
+@media (min-width:1120px) {
+    .navigation {
+      margin-left: 24px;
+      flex-wrap: wrap;
+    }
+}
+
+
+
+.navigation {
+    display: flex;
+    max-width: 1063px;
+    margin-bottom:0px;
+}
+
+
+ .navigation_el1,
+ .navigation_el2,
+ .navigation_el3,
+ .navigation_el4,
+ .navigation_el6
+  {  
+     white-space: nowrap;
+     line-height: 24px;
+     font-size: 16px;
+     padding-left: 15px;
+     padding-right: 15px;
+     color: #7E7E82;
+     border: 2px solid #F8F8F8;
+     background-color:#F8F8F8;
+ 
+ }
+ 
+ 
+ 
+ .navigation_el1{
+   border:2px solid #B8FFEC;
+   border-radius: 6px;
+   background-color: white;
+ }
