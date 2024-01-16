@@ -1,4 +1,4 @@
-.maincintent {
+.maincontent {
     margin: 0;
     padding: 0;
     display: flex;
@@ -6,7 +6,7 @@
     padding-top: 10px;
     min-width:320px;
     max-width: 1120px;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 
@@ -83,6 +83,10 @@
   @media (min-width:1119px) {
     .text {
       margin-left: 24px;
+    }
+
+    .maincontent {
+      padding-top: 50px;
     }
 
 }
