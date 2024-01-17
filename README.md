@@ -1,0 +1,1 @@
+github pages: https://febrawine.github.io/webpack-static-template/
