@@ -9,6 +9,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'TT Lakes Condensed';
+  src: url('../fonts/TT Lakes Condensed//TTLakesCondensed-Medium.eot');
+  src: local('TT Lakes Condensed Medium'), local('TTLakesCondensed-Medium'),
+      url('../fonts/TT Lakes Condensed/TTLakesCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/TT Lakes Condensed/TTLakesCondensed-Medium.woff') format('woff'),
+      url('../fonts/TT Lakes Condensed/TTLakesCondensed-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
   font-family: 'TT Lakes';
   max-width: 1120px;

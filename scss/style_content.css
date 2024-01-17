@@ -4,8 +4,8 @@
     display: flex;
     flex-wrap: nowrap;
     padding-top: 10px;
-    min-width:320px;
-    max-width: 1120px;
+
+
     padding-top: 0px;
 }
 
@@ -34,9 +34,11 @@
   font-size: 14px;
   line-height: 18px;
 
+  
+
 }
 .text {
- min-width: 312px;
+
  margin: 0;
  padding: 0;
  margin-right:0;
@@ -54,12 +56,6 @@
 }
   
 
-  
-  
-.text {
-    margin-right: 30px;
-    max-width: 490px;
-}
 
 .kartinka2 {
     margin-left: auto;
@@ -89,6 +85,7 @@
       padding-top: 50px;
     }
 
+
 }
 
 @media (min-width:1120px) {
@@ -114,9 +111,6 @@
       margin-right: 16px;
     }
 
-    .text {
-        max-width:312px;
-      }
 
 }
 
@@ -128,6 +122,9 @@
         margin-right: 20px;
         margin-left: auto;
     }
+    .text {
+      margin-right:10px
+    }
 }
 
 @media (max-width:767px) {
@@ -135,6 +132,7 @@
     max-width: 320px;
     padding: 0;
     margin: 0;
+    margin-top: 20px;
 }
   
   .kartinka2 {
@@ -146,11 +144,22 @@
 
 }
 
+
+
 @media (max-width:320px) {
-  .text {
-    margin-left: -16px;
+.text,
+.text_p,
+.maincontent,
+.navigation  {
+  max-width: 320px;
 }
+
 }
+
+
+
+
+
 
 
   
