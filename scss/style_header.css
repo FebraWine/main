@@ -38,11 +38,6 @@ body {
   padding-right: 10px;
 }
 
-
-.header__check {
-  padding-right: 15px;
-}
-
 .header_call,
 .header_chat,
 .header_profile {
@@ -140,7 +135,7 @@ body {
   position: relative;
 }
 
-.header_ckeck {
+.header_status {
   margin-right: 20px;
 }
 
