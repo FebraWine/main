@@ -39,16 +39,6 @@ body {
 }
 
 
-
-.header_info {
-  margin-left: 16px;
-  position: relative;
-  margin-right: 0;
-}
-
-
-
-
 .header__check {
   margin: 0;
   padding-right: 15px;
@@ -144,6 +134,15 @@ body {
    height: 32px;
    margin-left: -10px;
    top: 3%
+}
+
+.header_info {
+  margin-left: 16px;
+  position: relative;
+}
+
+.header__ckeck {
+  margin-right: 20px;
 }
 
 
