@@ -1,4 +1,4 @@
-.maincontent {
+.content__main {
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,6 +11,7 @@
 
 
 
+
 .content {
     background-color:#F8F8F8;
     padding-left:16px ;
@@ -19,7 +20,7 @@
     padding-bottom:40px;
 }
 
-.contentImg {
+.content__main-img {
     margin: 0;
     padding: 0;
     margin-left: auto;
@@ -28,8 +29,8 @@
   
 
 
-.text_p2
-.text_p {
+.content__main-text-p2
+.content__main-text-p {
   padding: 0;
   font-size: 14px;
   line-height: 18px;
@@ -37,7 +38,7 @@
   
 
 }
-.text {
+.content__main-text {
 
  margin: 0;
  padding: 0;
@@ -45,19 +46,28 @@
 
 }
 
-.text_icon {
+.content__main-text-icon {
   font-size: 16px;
   margin-left: 14px;
   font-weight: bold;
 }
 
-.icon {
-    padding: 5px;
+.content__main-text-btn {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.content__main-text-btn:hover {
+  background-color:rgb(233, 230, 224);
+  border-radius: 10%;
 }
   
 
 
-.kartinka2 {
+.content__main-img-scp {
     margin-left: auto;
     padding: 0;
     width: auto;
@@ -68,7 +78,7 @@
 
 
 @media (max-width:1119px) {
-    .text_count {
+    .content__main-text-count {
       display: none
     }
 
@@ -77,11 +87,11 @@
 
 
   @media (min-width:1119px) {
-    .text {
+    .content__main-text {
       margin-left: 24px;
     }
 
-    .maincontent {
+    .content__main {
       padding-top: 50px;
     }
 
@@ -89,24 +99,24 @@
 }
 
 @media (min-width:1120px) {
-    .kartinka2 {
+    .content__main-img-scp {
       width: 532px;
       height: auto;
     }
 }
 
 @media (max-width:767px) {
-    .maincontent {
+    .content__main {
       flex-wrap: wrap;
     }
   }
 
   @media (max-width:767px) {
-    .text_p2 {
+    .content__main-text-p2 {
       display:none
     }
   
-    .contentImg {
+    .content__main-img {
       margin-left: 0;
       margin-right: 16px;
     }
@@ -116,7 +126,7 @@
 
 
 @media (max-width:1119px) {
-    .kartinka2 {
+    .content__main-img-scp {
         width: 360px;
         height: auto;
         margin-right: 20px;
@@ -128,14 +138,14 @@
 }
 
 @media (max-width:767px) {
-  .contentImg {
+  .content__main-img {
     max-width: 320px;
     padding: 0;
     margin: 0;
     margin-top: 20px;
 }
   
-  .kartinka2 {
+  .content__main-img-scp {
         width: 320px;
         margin: 0;
         padding: 0;
@@ -147,14 +157,21 @@
 
 
 @media (max-width:320px) {
-.text,
-.text_p,
-.maincontent,
+.content__main-text,
+.content__main-text_p,
+.content__main,
 .navigation  {
   max-width: 320px;
+    }
 }
 
+
+@media (min-width:767px) {
+  .content__main-img {
+  padding-left: 15px;
+  }
 }
+
 
 
 

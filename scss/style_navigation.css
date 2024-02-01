@@ -1,15 +1,13 @@
-.navigation_el {  
-    
+.navigation__link {  
     white-space: nowrap;
     line-height: 24px;
     font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 21px;
     padding-right: 21px;
     color: #7E7E82;
-    border: 2px solid #F8F8F8;
-    background-color:#F8F8F8;
-    height: 40px;
-
+    text-decoration: none;
 }
 
 @media (max-width:1119px) {
@@ -24,7 +22,7 @@
       margin-left: 24px;
       flex-wrap: wrap;
     }
-    .navigation_el--none {
+    .navigation__link--none {
       display: none;
     }
 
@@ -37,7 +35,7 @@
     height: 45px;
 }
 
- .navigation_el--active {
+ .navigation__link--active {
    border:2px solid #B8FFEC;
    border-radius: 6px;
    background-color: white;
