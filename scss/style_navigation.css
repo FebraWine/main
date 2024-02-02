@@ -19,7 +19,7 @@
 
 @media (min-width:1120px) {
     .navigation {
-      margin-left: 24px;
+      padding-left: 24px;
       flex-wrap: wrap;
     }
     .navigation__link--none {
