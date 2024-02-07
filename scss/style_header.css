@@ -6,11 +6,15 @@ body {
 .header {
   position: relative;
   margin: 0;
-  padding: 0;
+  padding-top: 17px;
+  padding-right: 15px;
+  padding-bottom: 17px;
+  padding-left: 15px;
   display: flex;
   align-items: center;
   min-width: 320px;
-  height: 88px;
+  box-sizing: border-box;
+
 }
 
 
@@ -44,7 +48,6 @@ body {
 
 .header__info {
   position: relative;
-  margin-left: 12px;
 }
 
 
@@ -135,9 +138,7 @@ body {
   position: relative;
 }
 
-.header__status {
-  margin-right: 20px;
-}
+
 
 
 

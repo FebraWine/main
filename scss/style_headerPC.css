@@ -13,10 +13,11 @@
   img {
     vertical-align: middle;
   }
-  
-  .header-PC__title-right-checkstatus {
-    margin-right: 24px;;
+
+  .header-PC__title-right {
+    padding-right: 24px;
   }
+  
   
   @media (max-width:1119px) {
     .header-PC__title-right {
@@ -39,8 +40,7 @@
     
   }
   
-  .header-PC__title-h1 {
-    width:288px; 
+  .header-PC__title-h1 { 
     margin-left: 0;
     font-size: 28px;
     line-height: 40px;
@@ -71,7 +71,16 @@
   background-color:#F8F8F8;
  }
 
- .header-PC__title-right-text {
-  margin-left: 20px;
-  margin-right: 5px;
+ .header-PC__title-right-btn {
+  font-family: 'TT Lakes';
+  font-size: 16px;
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+ }
+
+ .header-PC__title-right-btn:hover {
+  background-color: #e9e9e9;
+  border-radius: 5px;
  }

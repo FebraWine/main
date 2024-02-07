@@ -53,6 +53,7 @@
 }
 
 .content__main-text-btn {
+  position: relative;
   text-decoration: none;
   background-color: transparent;
   border: none;
@@ -67,7 +68,7 @@
   
 
 
-.content__main-img-scp {
+.content__main-img {
     margin-left: auto;
     padding: 0;
     width: auto;
@@ -99,7 +100,7 @@
 }
 
 @media (min-width:1120px) {
-    .content__main-img-scp {
+    .content__main-img {
       width: 532px;
       height: auto;
     }
@@ -126,7 +127,7 @@
 
 
 @media (max-width:1119px) {
-    .content__main-img-scp {
+    .content__main-img {
         width: 360px;
         height: auto;
         margin-right: 20px;
@@ -145,7 +146,7 @@
     margin-top: 20px;
 }
   
-  .content__main-img-scp {
+  .content__main-img {
         width: 320px;
         margin: 0;
         padding: 0;
@@ -171,6 +172,17 @@
   padding-left: 15px;
   }
 }
+
+.content__main-text-icon--icon::before {
+  content:  url('../img/icon.png');
+  position: absolute;
+  left:3px;
+}
+
+.header-PC__title-right-btn-checkstatus,
+.header-PC__title-right-btn-repair {
+  padding-left: 7px;
+} 
 
 
 
