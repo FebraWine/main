@@ -10,10 +10,27 @@
     text-decoration: none;
 }
 
+ul {
+  list-style-type:none;
+  padding-top: 15px;
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+
 @media (max-width:1119px) {
     .navigation {
       overflow: auto;
       height: 40px;
+    }
+
+    li {
+      margin-left: -12px;
     }
 }
 
@@ -28,11 +45,13 @@
 
 }
 
+
+
 .navigation {
     display: flex;
-    min-width: 320px;
     margin-bottom:0px;
     height: 45px;
+    margin: 0;
 }
 
  .navigation__link--active {

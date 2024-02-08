@@ -47,6 +47,7 @@
 }
 
 .content__main-text-icon {
+  font-family: 'TT Lakes';
   font-size: 16px;
   margin-left: 14px;
   font-weight: bold;
@@ -122,6 +123,10 @@
       margin-right: 16px;
     }
 
+    .content__main-text {
+      padding-bottom: 10px;
+    }
+
 
 }
 
@@ -152,6 +157,8 @@
         padding: 0;
         margin-left: -16px;
     }
+
+
 
 }
 
